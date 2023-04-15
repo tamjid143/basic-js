@@ -16,3 +16,18 @@ while (num1 < 10) {
   console.log(num1);
   num1 += 1;
 }
+
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+  if (i === 5) {
+    break;
+  }
+}
+
+for (var i = 0; i < 6; i++) {
+  if (i === 4) {
+    console.log(i + "four is skipped");
+    continue;
+  }
+  console.log("i is at" + i);
+}
